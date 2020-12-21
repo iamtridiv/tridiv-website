@@ -4,7 +4,7 @@ import './App.css';
 function About() {
   return (
     <div>
-      <h1>About me</h1>
+      <h1 className="heading1">About me</h1>
       <br />
       <p>
         I am currently pursuing my Master's degree from NIT Karnataka in Computer Science and Information

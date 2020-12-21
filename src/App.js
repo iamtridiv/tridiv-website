@@ -13,10 +13,10 @@ function App() {
         <Nav />
         <Switch>
           <Route path="/" exact component={Home}></Route>
-          <Route path="/about" component={About}/>
-          <Route path="/skills" component={Skills}/>
-          <Route path="/projects" component={Projects}/>
-          <Route path="/contact" component={Contact}/>
+          <Route path="/about" exact component={About}></Route>
+          <Route path="/skills" exact component={Skills}></Route>
+          <Route path="/projects" exact component={Projects}></Route>
+          <Route path="/contact" exact component={Contact}></Route>
         </Switch>
       </div>
     </Router>
